@@ -1,0 +1,26 @@
+
+
+#modal {
+    background-color: rgba(237, 223, 223, 0.3);
+  border: none;
+
+}
+
+#modal, p{
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem rgb(0 0 0 / .3);
+  width: 100%;
+  font-size: 3rem;
+  color: white;
+  align: center;
+  margin-top: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px;
+}
+button{
+  border-radius: 3rem;
+  font-size: 2rem;
+  color:brown ;
+  font-weight:800 ;
+
+}
