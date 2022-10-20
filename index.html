@@ -13,18 +13,19 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
   </head>
   
-  <dialog id = "modal">
-    <p>
-      Bem-vindo a este site!  Aqui vamos aprender um pouco mais de JavaScript, CSS, Html no Projeto RocketPay da Rocketseat...     Aperte ESC para Sair
-    </p>
-  </dialog>
-
-
   <body>
    
     <div id="app">
       <header>
-      <button>Mensagem modal</button>
+        <button id="buttonModal">Mensagem modal</button>
+        <dialog id="modal">
+         <p>
+       Bem-vindo a este site!  Aqui vamos aprender um pouco mais de JavaScript, CSS, Html no Projeto RocketPay da Rocketseat...     Aperte ESC para Sair
+        </p>
+       </dialog>
+
+
+
       <img src="logo.svg" alt="ícone rocketpay" />
       </header>
       <section class="cc">
@@ -112,7 +113,7 @@
           <span><img src="/cc-icon.svg" alt="ícone padrão de cartão" /></span>
           <span
             ><img
-              src="/cc-visa.svg" alt="ícone do cartão de crédito selecionado"/></span>
+              src="/cc-default.svg" alt="ícone do cartão de crédito selecionado"/></span>
         </div>
 
         <div class="cc-info">
@@ -160,7 +161,7 @@
           </div>
         </div>
 
-        <button>ADICIONAR CARTÃO</button>
+        <button id="add-card" >ADICIONAR CARTÃO </button>
       </form>
     </div>
 
