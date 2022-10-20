@@ -12,15 +12,21 @@
   width: 100%;
   font-size: 3rem;
   color: white;
-  align: center;
   margin-top: 30px;
   font-family: 'Courier New', Courier, monospace;
   padding: 15px;
 }
 button{
-  border-radius: 3rem;
+  border-radius: 5rem;
   font-size: 2rem;
   color:brown ;
   font-weight:800 ;
-
+  width: auto;
 }
+
+   #buttonModal:hover{
+    background-color: #42D3FF;
+    font-size: 2.2rem;
+    color: #3c3c40;
+
+  }
